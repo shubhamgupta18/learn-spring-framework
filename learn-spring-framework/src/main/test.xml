@@ -1,0 +1,270 @@
+?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetDetailsRequestType xmlns:ns2="urn:expedia:supply:provider:air:v3:getdetails"
+                       xmlns:ns3="urn:expedia:supply:provider:air:v3">
+    <ns2:MessageContext>
+        <ns3:MessageGUID>204d3090-a68d-4ded-87be-85e30a579116</ns3:MessageGUID>
+        <ns3:TransactionGUID>5b1480ad-26b3-4ce8-8fdc-0d3a92c530e4</ns3:TransactionGUID>
+        <ns3:UserGUID>0f48c8c2-4a58-4a2e-a52f-014fa60c7bf3</ns3:UserGUID>
+        <ns3:MessageReference>TUID=1199458739,TPID=1,EAPID=0</ns3:MessageReference>
+        <ns3:DebugTrace>true</ns3:DebugTrace>
+        <ns3:Source>gulfstream-detail-service</ns3:Source>
+        <ns3:ClientHostname>ip-10-16-8-230</ns3:ClientHostname>
+    </ns2:MessageContext>
+    <ns2:SiteMessageContext>
+        <ns3:PointOfSaleKey>
+            <ns3:JurisdictionCountryCode>USA</ns3:JurisdictionCountryCode>
+            <ns3:CompanyCode>10111</ns3:CompanyCode>
+            <ns3:ManagementUnitCode>1010</ns3:ManagementUnitCode>
+        </ns3:PointOfSaleKey>
+    </ns2:SiteMessageContext>
+    <ns2:ProductDetailsRequest>
+        <ns3:RequestedCabinType>coach</ns3:RequestedCabinType>
+        <ns3:ItineraryRequest>
+            <ns3:OriginDestinationRequestList>
+                <ns3:OriginDestinationRequest>
+                    <ns3:SegmentRequestList>
+                        <ns3:SegmentRequest>
+                            <ns3:CarrierCode>LH</ns3:CarrierCode>
+                            <ns3:FlightNumber>595</ns3:FlightNumber>
+                            <ns3:DepartureAirportCode>ABV</ns3:DepartureAirportCode>
+                            <ns3:ArrivalAirportCode>FRA</ns3:ArrivalAirportCode>
+                            <ns3:DepartureDateTime>2024-01-08T23:05:00+01:00</ns3:DepartureDateTime>
+                            <ns3:ArrivalDateTime>2024-01-09T05:25:00+01:00</ns3:ArrivalDateTime>
+                            <ns3:CabinType>coach</ns3:CabinType>
+                            <ns3:MarriedToPrevious>false</ns3:MarriedToPrevious>
+                            <ns3:SegmentBookingCode>Y</ns3:SegmentBookingCode>
+                            <ns3:SegmentStopCount>0</ns3:SegmentStopCount>
+                            <ns3:FareFamilyDetails>
+                                <ns3:FareFamilyCode>ECOBASEA</ns3:FareFamilyCode>
+                            </ns3:FareFamilyDetails>
+                            <ns3:SegmentAttributeList xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:LegRequestList>
+                                <ns3:LegRequest>
+                                    <ns3:DepartureAirportCode>ABV</ns3:DepartureAirportCode>
+                                    <ns3:ArrivalAirportCode>FRA</ns3:ArrivalAirportCode>
+                                    <ns3:FlightEquipmentCode>333</ns3:FlightEquipmentCode>
+                                </ns3:LegRequest>
+                            </ns3:LegRequestList>
+                        </ns3:SegmentRequest>
+                        <ns3:SegmentRequest>
+                            <ns3:CarrierCode>LH</ns3:CarrierCode>
+                            <ns3:FlightNumber>924</ns3:FlightNumber>
+                            <ns3:DepartureAirportCode>FRA</ns3:DepartureAirportCode>
+                            <ns3:ArrivalAirportCode>LHR</ns3:ArrivalAirportCode>
+                            <ns3:DepartureDateTime>2024-01-09T07:00:00+01:00</ns3:DepartureDateTime>
+                            <ns3:ArrivalDateTime>2024-01-09T07:45:00Z</ns3:ArrivalDateTime>
+                            <ns3:CabinType>coach</ns3:CabinType>
+                            <ns3:MarriedToPrevious>true</ns3:MarriedToPrevious>
+                            <ns3:SegmentBookingCode>Y</ns3:SegmentBookingCode>
+                            <ns3:SegmentStopCount>0</ns3:SegmentStopCount>
+                            <ns3:FareFamilyDetails>
+                                <ns3:FareFamilyCode>ECOBASEA</ns3:FareFamilyCode>
+                            </ns3:FareFamilyDetails>
+                            <ns3:SegmentAttributeList xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:LegRequestList>
+                                <ns3:LegRequest>
+                                    <ns3:DepartureAirportCode>FRA</ns3:DepartureAirportCode>
+                                    <ns3:ArrivalAirportCode>LHR</ns3:ArrivalAirportCode>
+                                    <ns3:FlightEquipmentCode>32N</ns3:FlightEquipmentCode>
+                                </ns3:LegRequest>
+                            </ns3:LegRequestList>
+                        </ns3:SegmentRequest>
+                    </ns3:SegmentRequestList>
+                    <ns3:DepartureMetroCode>ABV</ns3:DepartureMetroCode>
+                    <ns3:ArrivalMetroCode>LHR</ns3:ArrivalMetroCode>
+                </ns3:OriginDestinationRequest>
+                <ns3:OriginDestinationRequest>
+                    <ns3:SegmentRequestList>
+                        <ns3:SegmentRequest>
+                            <ns3:CarrierCode>LH</ns3:CarrierCode>
+                            <ns3:FlightNumber>923</ns3:FlightNumber>
+                            <ns3:DepartureAirportCode>LHR</ns3:DepartureAirportCode>
+                            <ns3:ArrivalAirportCode>FRA</ns3:ArrivalAirportCode>
+                            <ns3:DepartureDateTime>2024-01-11T07:30:00Z</ns3:DepartureDateTime>
+                            <ns3:ArrivalDateTime>2024-01-11T10:05:00+01:00</ns3:ArrivalDateTime>
+                            <ns3:CabinType>coach</ns3:CabinType>
+                            <ns3:MarriedToPrevious>false</ns3:MarriedToPrevious>
+                            <ns3:SegmentBookingCode>Q</ns3:SegmentBookingCode>
+                            <ns3:SegmentStopCount>0</ns3:SegmentStopCount>
+                            <ns3:FareFamilyDetails>
+                                <ns3:FareFamilyCode>ECOBASEA</ns3:FareFamilyCode>
+                            </ns3:FareFamilyDetails>
+                            <ns3:SegmentAttributeList xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:LegRequestList>
+                                <ns3:LegRequest>
+                                    <ns3:DepartureAirportCode>LHR</ns3:DepartureAirportCode>
+                                    <ns3:ArrivalAirportCode>FRA</ns3:ArrivalAirportCode>
+                                    <ns3:FlightEquipmentCode>32N</ns3:FlightEquipmentCode>
+                                </ns3:LegRequest>
+                            </ns3:LegRequestList>
+                        </ns3:SegmentRequest>
+                        <ns3:SegmentRequest>
+                            <ns3:CarrierCode>LH</ns3:CarrierCode>
+                            <ns3:FlightNumber>594</ns3:FlightNumber>
+                            <ns3:DepartureAirportCode>FRA</ns3:DepartureAirportCode>
+                            <ns3:ArrivalAirportCode>ABV</ns3:ArrivalAirportCode>
+                            <ns3:DepartureDateTime>2024-01-11T11:15:00+01:00</ns3:DepartureDateTime>
+                            <ns3:ArrivalDateTime>2024-01-11T17:20:00+01:00</ns3:ArrivalDateTime>
+                            <ns3:CabinType>coach</ns3:CabinType>
+                            <ns3:MarriedToPrevious>true</ns3:MarriedToPrevious>
+                            <ns3:SegmentBookingCode>Q</ns3:SegmentBookingCode>
+                            <ns3:SegmentStopCount>0</ns3:SegmentStopCount>
+                            <ns3:FareFamilyDetails>
+                                <ns3:FareFamilyCode>ECOBASEA</ns3:FareFamilyCode>
+                            </ns3:FareFamilyDetails>
+                            <ns3:SegmentAttributeList xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:LegRequestList>
+                                <ns3:LegRequest>
+                                    <ns3:DepartureAirportCode>FRA</ns3:DepartureAirportCode>
+                                    <ns3:ArrivalAirportCode>ABV</ns3:ArrivalAirportCode>
+                                    <ns3:FlightEquipmentCode>333</ns3:FlightEquipmentCode>
+                                </ns3:LegRequest>
+                            </ns3:LegRequestList>
+                        </ns3:SegmentRequest>
+                    </ns3:SegmentRequestList>
+                    <ns3:DepartureMetroCode>LHR</ns3:DepartureMetroCode>
+                    <ns3:ArrivalMetroCode>ABV</ns3:ArrivalMetroCode>
+                </ns3:OriginDestinationRequest>
+            </ns3:OriginDestinationRequestList>
+        </ns3:ItineraryRequest>
+        <ns3:PricingConstruct>{BFSDiag}{FC} S1/2-YRCDXNG/DXNG|S3/4-QRCDXNG/DXNG [DXNG] [DFC-FEI -][DFC YRCDXNG LH (0) -
+            [(A1)ABV-LOS(Y*****)][(I)LOS-LON(YRCDXNG)]] [DFC-FEI -][DFC QRCDXNG LH (1) -
+            [(A1)ABV-LOS(Q*****)][(I)LOS-LON(QRCDXNG)]] (([1|2][3|4])) [[0x00001102]] $B
+            [(F11605BB9A49DB2AB81FB2AE2D1E60AC)][AMN]LH BRANDED FARES IC AFRICA 2PC|ECONOMY
+            BASE|5|1F|3F1|4C|5C|7F|AC[EAMN]
+            :W1985.00;2564.08::W2101.00;2685.88::W2217.00;2807.68::W3117.00;3934.33::W3257.00;4081.33::W3397.00;4228.33:{/FC}{DollarAfc}{/DollarAfc}{/BFSDiag}
+        </ns3:PricingConstruct>
+        <ns3:FareList>
+            <ns3:Fare>
+                <ns3:TravelerFareApplicability>
+                    <ns3:PricingPTC>adult</ns3:PricingPTC>
+                </ns3:TravelerFareApplicability>
+                <ns3:FareComponentList>
+                    <ns3:FareComponent FareComponentIndex="1" ProductSegmentBegin="0" ProductSegmentEnd="0">
+                        <ns3:DepartureAirportCode>ABV</ns3:DepartureAirportCode>
+                        <ns3:ArrivalAirportCode>LON</ns3:ArrivalAirportCode>
+                        <ns3:FareFillingAirCarrierCode>LH</ns3:FareFillingAirCarrierCode>
+                        <ns3:FareMarket>ABVLON</ns3:FareMarket>
+                        <ns3:FareBasisCode>YRCDXNG</ns3:FareBasisCode>
+                        <ns3:FareRuleSummary>
+                            <ns3:ChangeAllowed xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:ChangeConditions xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:ChangePenaltyCurrencyAmount xsi:nil="true"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundAllowed xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundConditions xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundPenaltyCurrencyAmount xsi:nil="true"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangeAllowed xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangeConditions xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangePenaltyCurrencyAmount xsi:nil="true"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundAllowed xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundConditions xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundPenaltyCurrencyAmount xsi:nil="true"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:FareRuleExternalLinkURL xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                        </ns3:FareRuleSummary>
+                    </ns3:FareComponent>
+                    <ns3:FareComponent FareComponentIndex="1" ProductSegmentBegin="0" ProductSegmentEnd="0">
+                        <ns3:DepartureAirportCode>ABV</ns3:DepartureAirportCode>
+                        <ns3:ArrivalAirportCode>LON</ns3:ArrivalAirportCode>
+                        <ns3:FareFillingAirCarrierCode>LH</ns3:FareFillingAirCarrierCode>
+                        <ns3:FareMarket>ABVLON</ns3:FareMarket>
+                        <ns3:FareBasisCode>QRCDXNG</ns3:FareBasisCode>
+                        <ns3:FareRuleSummary>
+                            <ns3:ChangeAllowed xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:ChangeConditions xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:ChangePenaltyCurrencyAmount xsi:nil="true"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundAllowed xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundConditions xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:RefundPenaltyCurrencyAmount xsi:nil="true"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangeAllowed xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangeConditions xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteChangePenaltyCurrencyAmount xsi:nil="true"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundAllowed xsi:nil="true"
+                                                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundConditions xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:EnrouteRefundPenaltyCurrencyAmount xsi:nil="true"
+                                                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            <ns3:FareRuleExternalLinkURL xsi:nil="true"
+                                                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                        </ns3:FareRuleSummary>
+                    </ns3:FareComponent>
+                </ns3:FareComponentList>
+                <ns3:TotalCurrencyAmount>
+                    <ns3:Amount>2685.88</ns3:Amount>
+                    <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+                </ns3:TotalCurrencyAmount>
+                <ns3:BaseCurrencyAmount>
+                    <ns3:Amount>2101.0</ns3:Amount>
+                    <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+                </ns3:BaseCurrencyAmount>
+                <ns3:TaxesCurrencyAmount>
+                    <ns3:Amount>584.88</ns3:Amount>
+                    <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+                </ns3:TaxesCurrencyAmount>
+                <ns3:TaxDetailsList xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </ns3:Fare>
+        </ns3:FareList>
+        <ns3:FareTotal>
+            <ns3:TravelerFareApplicability>
+                <ns3:PricingPTC>unspecified</ns3:PricingPTC>
+            </ns3:TravelerFareApplicability>
+            <ns3:TotalCurrencyAmount>
+                <ns3:Amount>2685.88</ns3:Amount>
+                <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+            </ns3:TotalCurrencyAmount>
+            <ns3:BaseCurrencyAmount>
+                <ns3:Amount>2101.0</ns3:Amount>
+                <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+            </ns3:BaseCurrencyAmount>
+            <ns3:TaxesCurrencyAmount>
+                <ns3:Amount>584.88</ns3:Amount>
+                <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+            </ns3:TaxesCurrencyAmount>
+            <ns3:TaxDetailsList xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </ns3:FareTotal>
+        <ns3:FarePriceInstructions>
+            <ns3:FareType>Web</ns3:FareType>
+            <ns3:PurchaseCategory>Standalone</ns3:PurchaseCategory>
+            <ns3:FareSecurity>
+                <ns3:ProviderAgencyOfficeCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <ns3:FareAccountNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </ns3:FareSecurity>
+            <ns3:TravelerFarePricingInstructionsList>
+                <ns3:TravelerFarePricingInstructions>
+                    <ns3:TravelerType>adult</ns3:TravelerType>
+                    <ns3:PricingPTCOverride>ADT</ns3:PricingPTCOverride>
+                    <ns3:NoOfTravelers>1</ns3:NoOfTravelers>
+                </ns3:TravelerFarePricingInstructions>
+            </ns3:TravelerFarePricingInstructionsList>
+            <ns3:FareRestrictionList>
+                <ns3:FareRestriction>unspecified</ns3:FareRestriction>
+            </ns3:FareRestrictionList>
+            <ns3:CurrencyCode>USD</ns3:CurrencyCode>
+            <ns3:RequestFareRulesText>false</ns3:RequestFareRulesText>
+            <ns3:RequestBrandedFares>true</ns3:RequestBrandedFares>
+            <ns3:UpsellOffer>true</ns3:UpsellOffer>
+        </ns3:FarePriceInstructions>
+        <ns3:FareInstruction>
+            <ns3:FareFilingCategoryCode>atpco securate</ns3:FareFilingCategoryCode>
+        </ns3:FareInstruction>
+        <ns3:TicketingCarrierCode>LH</ns3:TicketingCarrierCode>
+    </ns2:ProductDetailsRequest>
+</GetDetailsRequestType>
